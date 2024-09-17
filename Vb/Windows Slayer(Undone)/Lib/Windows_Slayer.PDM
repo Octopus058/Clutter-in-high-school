@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=标准安装软件包 1
+
+
+[Package|标准安装软件包 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\编程\Vb\Windows Slayer\Lib\包
+
+[Package|标准安装软件包 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|标准安装软件包 1|Files Found]
+
+[Package|标准安装软件包 1|Files Released]
+
+[Package|标准安装软件包 1|Missing Dependency Information]
+
+[Package|标准安装软件包 1|Out-of-Date Dependency Information]
+
+[Package|标准安装软件包 1|Files Added]
+
+[Package|标准安装软件包 1|Files Removed]
+
+[Package|标准安装软件包 1|Files In Project]
+E:\编程\Vb\Windows Slayer\Windows Slayer.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6CHS.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|标准安装软件包 1|Configure Registry Files]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure Remote Servers]
+Applicable=No
+
+[Package|标准安装软件包 1|Install Locations]
+E:\编程\Vb\Windows Slayer\Windows Slayer.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6CHS.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|标准安装软件包 1|Configure Shared Files]
+Applicable=Yes
+E:\编程\Vb\Windows Slayer\Windows Slayer.exe=No
+
+[Package|标准安装软件包 1|Distribution]
+Type=single
+Size=
+Title=Windows Slayer
+
+[Package|标准安装软件包 1|IconGroups]
+Group0=Windows Slayer
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|标准安装软件包 1|Windows Slayer]
+Icon1="Windows Slayer.exe"
+Title1=Windows Slayer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|标准安装软件包 1|Package]
+PackageFolder=E:\编程\Vb\Windows Slayer\Lib\包
+ProjectFolder=E:\编程\Vb\Windows Slayer\Lib
+ServerSideCab=
+File1=E:\编程\Vb\Windows Slayer\Lib\包\setup.exe
+File2=E:\编程\Vb\Windows Slayer\Lib\包\Setup.Lst
+File3=E:\编程\Vb\Windows Slayer\Lib\包\Windows Slayer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
